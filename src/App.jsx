@@ -4,7 +4,6 @@ import {Chat} from 'stream-chat-react'
 import Cookies from 'universal-cookie'
 import {ChannelContainer,ChannelListContainer} from './components';
 import './App.css'
-
 const apiKey='8xusjvvcgup6'
 const client=StreamChat.getInstance(apiKey)
 const authToken=false;
